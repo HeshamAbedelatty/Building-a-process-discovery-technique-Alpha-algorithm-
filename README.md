@@ -6,3 +6,7 @@ Output: Set of transitions (T), Set of input transitions (I), Set of output tran
 Txt file: identification of the project.
 IDE: Pycharm.
 Two python files: (helping Functions) (main) (test) 
+## libraries:
++ netgraph
+- prettytable
+* matplotlib 
