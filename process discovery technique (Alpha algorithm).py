@@ -287,11 +287,11 @@ from netgraph import Graph
 # Traces=[['a','b','c','d'],
 #         ['a','c','b','d'],
 #         ['a','e','d']]
-# Traces=[['a','b','c','d'],
-#         ['a','c','b','d'],
-#         ['a','b','c','e','f','b','c','d'],
-#         ['a','b','c','e','f','c','b','d'],
-#         ['a','c','b','e','f','b','c','d']]
+Traces=[['a','b','c','d'],
+        ['a','c','b','d'],
+        ['a','b','c','e','f','b','c','d'],
+        ['a','b','c','e','f','c','b','d'],
+        ['a','c','b','e','f','b','c','d']]
 # Traces=[['a','b','e','f'],
 #         ['a','b','e','c','d','b','f'],
 #         ['a','b','c','e','d','b','f'],
@@ -300,12 +300,12 @@ from netgraph import Graph
 Traces = []
 num_traces = int(input("Enter the number of traces: "))
 
-# Loop to get each trace from the user
-print(f"Enter trace as a space-separated list of events Like: a b e f")
-for i in range(num_traces):
-    trace_str = input(f"Enter trace {i + 1} : ")
-    trace = trace_str.split()
-    Traces.append(trace)
+# # Loop to get each trace from the user
+# print(f"Enter trace as a space-separated list of events Like: a b e f")
+# for i in range(num_traces):
+#     trace_str = input(f"Enter trace {i + 1} : ")
+#     trace = trace_str.split()
+#     Traces.append(trace)
 
 Inputs = getTI(Traces)
 Outputs= getOI(Traces)
