@@ -17,7 +17,7 @@ def print_as_table(data):
         table.add_row(row)
 
     print(table)
-
+# Hesham Ahmed
 
 def printPairs(pairs):
     formatted_pairs = "{" + ",".join(f"({x}, {y})" for x, y in pairs) + "}"
